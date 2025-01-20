@@ -5,7 +5,7 @@ import { FaArrowDown } from "react-icons/fa";
 
 
 export default function TodoList() {
-    const [tasks, setTasks] = useState(['Eat Breakfast', 'Take a Shower', 'walk the Dog'])
+    const [tasks, setTasks] = useState(['Eat Breakfast', 'Take a Shower', 'Go to School'])
     //create a state variable for a task
     const [newTask, setNewTask] = useState('')
 
