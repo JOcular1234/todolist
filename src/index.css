@@ -85,10 +85,11 @@ li{
 }
 @media (max-width:499px) {
     li {
-   
         display: flex;
-        font-size: 1rem;
+        font-size: 1.1rem;
         align-items: center; 
     }
-
+    input[type=text]{
+        width: 100%;
+    }
 }
